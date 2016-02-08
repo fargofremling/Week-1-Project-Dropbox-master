@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3A1E8A2D1C67F8B8003671DB /* PhotosPopulatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1E8A2C1C67F8B8003671DB /* PhotosPopulatedViewController.swift */; };
 		3A1E8A2F1C67FF0D003671DB /* Welcome3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1E8A2E1C67FF0D003671DB /* Welcome3ViewController.swift */; };
+		3A72011D1C6863DB00A4E65E /* WideWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72011C1C6863DB00A4E65E /* WideWelcomeViewController.swift */; };
 		3A8EF51B1C65D27500EA17C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8EF51A1C65D27500EA17C9 /* AppDelegate.swift */; };
 		3A8EF51D1C65D27500EA17C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8EF51C1C65D27500EA17C9 /* ViewController.swift */; };
 		3A8EF5201C65D27500EA17C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8EF51E1C65D27500EA17C9 /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		3A1E8A2C1C67F8B8003671DB /* PhotosPopulatedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosPopulatedViewController.swift; sourceTree = "<group>"; };
 		3A1E8A2E1C67FF0D003671DB /* Welcome3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Welcome3ViewController.swift; sourceTree = "<group>"; };
+		3A72011C1C6863DB00A4E65E /* WideWelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WideWelcomeViewController.swift; sourceTree = "<group>"; };
 		3A8EF5171C65D27500EA17C9 /* Week 1 Project: Dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week 1 Project: Dropbox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A8EF51A1C65D27500EA17C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A8EF51C1C65D27500EA17C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 		3A1E8A301C67FF43003671DB /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				3A72011C1C6863DB00A4E65E /* WideWelcomeViewController.swift */,
 				3A8EF5521C67AC0000EA17C9 /* Welcome1ViewController.swift */,
 				3A1E8A2E1C67FF0D003671DB /* Welcome3ViewController.swift */,
 				3A8EF5501C66866C00EA17C9 /* SignInRootViewController.swift */,
@@ -293,6 +296,7 @@
 				3A1E8A2F1C67FF0D003671DB /* Welcome3ViewController.swift in Sources */,
 				3A1E8A2D1C67F8B8003671DB /* PhotosPopulatedViewController.swift in Sources */,
 				3A8EF54B1C664E7900EA17C9 /* SettingsViewController.swift in Sources */,
+				3A72011D1C6863DB00A4E65E /* WideWelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
