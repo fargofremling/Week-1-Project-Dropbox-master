@@ -1,7 +1,7 @@
 # Week 1 Project: Dropbox
 The purpose of this project is to use Xcode to implement the flow between the screens of an application. 
 
-Time spent: #15 hours
+Time spent: #16 hours
 
 #Project Requirements
 
