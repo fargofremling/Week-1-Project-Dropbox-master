@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Week 1 Project: Dropbox/AppDelegate.swift"
+            timestampString = "476572475.841775"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Week_1_Project__Dropbox.AppDelegate.__deallocating_deinit"
+                  moduleName = "Week 1 Project: Dropbox"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/afreml002c/Documents/Personal/xcodeprojects/Week%201/Week%201%20Project:%20Dropbox/Week%201%20Project:%20Dropbox/AppDelegate.swift"
+                  timestampString = "476520005.442478"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Week_1_Project__Dropbox.AppDelegate.init (Week_1_Project__Dropbox.AppDelegate.Type)() -&gt; Week_1_Project__Dropbox.AppDelegate"
+                  moduleName = "Week 1 Project: Dropbox"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/afreml002c/Documents/Personal/xcodeprojects/Week%201/Week%201%20Project:%20Dropbox/Week%201%20Project:%20Dropbox/AppDelegate.swift"
+                  timestampString = "476520005.448555"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Week 1 Project: Dropbox"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/afreml002c/Documents/Personal/xcodeprojects/Week%201/Week%201%20Project:%20Dropbox/Week%201%20Project:%20Dropbox/AppDelegate.swift"
+                  timestampString = "476520005.448828"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
