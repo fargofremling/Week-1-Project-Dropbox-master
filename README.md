@@ -14,7 +14,7 @@ Time spent: #15 hours
  - User can follow the sign in flow.
    - User can tap the area for "Having trouble signing in?"
    - User can log out from the Settings screen.
-
+ - Optional: Swipe through the welcome screens instead of just tapping them.
  - Additional: Sign In button on initial welcome screen (Welcome1) is linked to the sign in flow.
  - Additional: Sign In button on third welcome screen (Welcome3) is linked to the sign in flow.
  
