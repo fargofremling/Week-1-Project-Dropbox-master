@@ -432,7 +432,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="L7P-lb-7q8" kind="push" id="deB-5j-kSE"/>
+                                    <segue destination="L7P-lb-7q8" kind="modal" id="deB-5j-kSE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="P0i-gO-f7G">
@@ -469,7 +469,14 @@
                                 <rect key="frame" x="64" y="196" width="193" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="mmH-Gp-6BI" kind="push" id="CJN-FR-W4M"/>
+                                    <segue destination="mmH-Gp-6BI" kind="modal" id="CJN-FR-W4M"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SqA-sC-ZH4">
+                                <rect key="frame" x="251" y="27" width="66" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="RqU-lQ-qq5" kind="modal" id="Arb-z0-BYv"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -477,11 +484,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Drop Box" id="8au-wV-U5f">
                         <barButtonItem key="backBarButtonItem" title="Welcome" id="WOl-t7-54Y"/>
-                        <barButtonItem key="rightBarButtonItem" title="Sign In" id="Hnc-kT-7N3">
-                            <connections>
-                                <segue destination="RqU-lQ-qq5" kind="modal" id="MJI-1h-YZN"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Sign In" id="Hnc-kT-7N3"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eA0-D6-JG7" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -697,7 +700,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="0po-GH-k5i" kind="push" id="quO-Kh-ELX"/>
+                                    <segue destination="0po-GH-k5i" kind="push" animates="NO" id="quO-Kh-ELX"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -953,7 +956,7 @@
                                 <rect key="frame" x="10" y="514" width="300" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="L7P-lb-7q8" kind="push" id="phk-uq-cP0"/>
+                                    <segue destination="L7P-lb-7q8" kind="modal" id="phk-uq-cP0"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -994,10 +997,10 @@
         <image name="welcome3" width="320" height="568"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="phk-uq-cP0"/>
         <segue reference="x3a-9N-mFx"/>
+        <segue reference="phk-uq-cP0"/>
+        <segue reference="k4s-dP-j8F"/>
         <segue reference="67O-5E-8M2"/>
-        <segue reference="FJc-Q5-7Zz"/>
         <segue reference="bIa-uh-ZBL"/>
     </inferredMetricsTieBreakers>
 </document>
