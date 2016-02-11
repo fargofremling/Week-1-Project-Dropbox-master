@@ -9,7 +9,8 @@
 import UIKit
 
 class CreateAccountRootViewController: UIViewController {
-
+    var isSignedUpClicked : Bool = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

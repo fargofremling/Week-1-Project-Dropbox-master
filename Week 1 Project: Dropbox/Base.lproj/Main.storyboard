@@ -168,7 +168,8 @@
                                         <rect key="frame" x="666" y="382" width="265" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
-                                            <segue destination="o6x-Jn-HSq" kind="modal" id="Aln-Qa-DCe"/>
+                                            <action selector="clickedSignUp:" destination="Na9-cs-5Sv" eventType="touchUpInside" id="gEn-QT-4XI"/>
+                                            <segue destination="o6x-Jn-HSq" kind="modal" identifier="goToNavControllerSegue" id="Aln-Qa-DCe"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="saK-CI-BUx">
@@ -272,7 +273,7 @@
                                 <rect key="frame" x="0.0" y="471" width="320" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="TVi-QX-UEA" kind="push" animates="NO" id="67O-5E-8M2"/>
+                                    <segue destination="TVi-QX-UEA" kind="push" identifier="goToSignUpSegue" animates="NO" id="67O-5E-8M2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PJb-Cp-pjc">
@@ -289,7 +290,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IZI-cQ-U25" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="140" y="18"/>
+            <point key="canvasLocation" x="152" y="21"/>
         </scene>
         <!--New Account-->
         <scene sceneID="I2p-Y6-ZQe">
@@ -313,9 +314,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="New Account" id="6TM-h0-qHI">
-                        <barButtonItem key="backBarButtonItem" title="Welcome" id="yk9-Gw-IU4"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="New Account" id="6TM-h0-qHI"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc0-7g-YMs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1051,10 +1050,10 @@
         <image name="welcome3" width="320" height="568"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="67O-5E-8M2"/>
+        <segue reference="nsg-3u-eTE"/>
+        <segue reference="AqX-3s-ZSU"/>
         <segue reference="mC2-fi-GZc"/>
         <segue reference="phk-uq-cP0"/>
-        <segue reference="k4s-dP-j8F"/>
-        <segue reference="67O-5E-8M2"/>
-        <segue reference="5g7-U1-FX9"/>
     </inferredMetricsTieBreakers>
 </document>
