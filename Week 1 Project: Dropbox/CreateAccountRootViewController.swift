@@ -9,9 +9,9 @@
 import UIKit
 
 class CreateAccountRootViewController: UIViewController {
-    var isSignedUpClicked : Bool = false
     
     override func viewDidLoad() {
+        performSegueWithIdentifier("toCreateSegue", sender: self)
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.

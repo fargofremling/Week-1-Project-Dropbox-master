@@ -10,6 +10,8 @@ import UIKit
 
 class WideWelcomeViewController: UIViewController {
 
+    @IBAction func clickedSignUp(sender: AnyObject) {
+    }
     @IBOutlet weak var wideWelcomeScrollView: UIScrollView!
     override func viewDidLoad() {
         super.viewDidLoad()
