@@ -575,7 +575,7 @@
         <!--New Account-->
         <scene sceneID="mfk-IE-WFE">
             <objects>
-                <viewController id="2L5-Zt-dHo" sceneMemberID="viewController">
+                <viewController id="2L5-Zt-dHo" customClass="CreateAccount2ViewController" customModule="Week_1_Project__Dropbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="s6c-6n-gUr">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1050,10 +1050,10 @@
         <image name="welcome3" width="320" height="568"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="EgJ-RO-fuC"/>
         <segue reference="67O-5E-8M2"/>
+        <segue reference="EgJ-RO-fuC"/>
         <segue reference="Iib-bl-PEn"/>
-        <segue reference="AqX-3s-ZSU"/>
         <segue reference="deB-5j-kSE"/>
+        <segue reference="R1V-ml-svr"/>
     </inferredMetricsTieBreakers>
 </document>

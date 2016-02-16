@@ -21,6 +21,7 @@
 		3A8EF54F1C66863E00EA17C9 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8EF54E1C66863E00EA17C9 /* CreateAccountRootViewController.swift */; };
 		3A8EF5511C66866C00EA17C9 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8EF5501C66866C00EA17C9 /* SignInRootViewController.swift */; };
 		3A8EF5531C67AC0000EA17C9 /* Welcome1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8EF5521C67AC0000EA17C9 /* Welcome1ViewController.swift */; };
+		3AEAAC501C72D55400753804 /* CreateAccount2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEAAC4F1C72D55400753804 /* CreateAccount2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		3A8EF54E1C66863E00EA17C9 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
 		3A8EF5501C66866C00EA17C9 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
 		3A8EF5521C67AC0000EA17C9 /* Welcome1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Welcome1ViewController.swift; sourceTree = "<group>"; };
+		3AEAAC4F1C72D55400753804 /* CreateAccount2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccount2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				3A1E8A2C1C67F8B8003671DB /* PhotosPopulatedViewController.swift */,
 				3A8EF54A1C664E7900EA17C9 /* SettingsViewController.swift */,
 				3A8EF51C1C65D27500EA17C9 /* ViewController.swift */,
+				3AEAAC4F1C72D55400753804 /* CreateAccount2ViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				3A8EF51B1C65D27500EA17C9 /* AppDelegate.swift in Sources */,
 				3A1E8A2F1C67FF0D003671DB /* Welcome3ViewController.swift in Sources */,
 				3A1E8A2D1C67F8B8003671DB /* PhotosPopulatedViewController.swift in Sources */,
+				3AEAAC501C72D55400753804 /* CreateAccount2ViewController.swift in Sources */,
 				3A8EF54B1C664E7900EA17C9 /* SettingsViewController.swift in Sources */,
 				3A72011D1C6863DB00A4E65E /* WideWelcomeViewController.swift in Sources */,
 			);
